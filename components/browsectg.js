@@ -61,7 +61,7 @@ export default function browsectg() {
       <div className="item">
          <div className="mb-0"> 
             <div className="cat-item text-center">
-            <Link href="#" className="dropdown-item"><div className="cat-img">
+            <Link href="/innerlistings" className="dropdown-item"><div className="cat-img">
               <Image
         alt="Property"
         src={properyIcon}        
@@ -75,7 +75,7 @@ export default function browsectg() {
       <div className="item">
          <div className="mb-0"> 
             <div className="cat-item text-center">
-            <Link href="#" className="dropdown-item"><div className="cat-img">
+            <Link href="/innerlistings" className="dropdown-item"><div className="cat-img">
               <Image
         alt="Electronics"
         src={electronicsIcon}        
@@ -89,7 +89,7 @@ export default function browsectg() {
       <div className="item">
          <div className="mb-0"> 
             <div className="cat-item text-center">
-            <Link href="#" className="dropdown-item"><div className="cat-img">
+            <Link href="/innerlistings" className="dropdown-item"><div className="cat-img">
               <Image
         alt="Jobs"
         src={jobsIcon}        
@@ -103,7 +103,7 @@ export default function browsectg() {
       <div className="item">
          <div className="mb-0"> 
             <div className="cat-item text-center">
-            <Link href="#" className="dropdown-item"><div className="cat-img">
+            <Link href="/innerlistings" className="dropdown-item"><div className="cat-img">
               <Image
         alt="Astrology"
         src={astrologyIcon}        
@@ -117,7 +117,7 @@ export default function browsectg() {
       <div className="item">
          <div className="mb-0"> 
             <div className="cat-item text-center">
-            <Link href="#" className="dropdown-item"><div className="cat-img">
+            <Link href="/innerlistings" className="dropdown-item"><div className="cat-img">
               <Image
         alt="Service"
         src={servicesIcon}        
@@ -132,7 +132,7 @@ export default function browsectg() {
       <div className="item">
          <div className="mb-0"> 
             <div className="cat-item text-center">
-            <Link href="#" className="dropdown-item"><div className="cat-img">
+            <Link href="/innerlistings" className="dropdown-item"><div className="cat-img">
               <Image
         alt="Automobiles"
         src={automobilesIcon}        

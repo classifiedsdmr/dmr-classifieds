@@ -3,23 +3,23 @@ import Link from "next/link";
 import dummyImage from '../public/img/dummy.png';
 import houseImage from '../public/img/housesale.jpg';
 
-export default function homecards() {
+export default function innercards() {
   return (
     <section id="blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="intro">
+    <div className="container g-0">
+        <div className="row">
+            <div className="col-12">
+                <div className="intro">
                   
-                    <h2>Fresh recommendations</h2>
+                    <h2>Properties</h2>
                    
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div className="row">
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
+            <div className="col-md-4 col-6">
+            <article class="blog-post">
                 <Link href="innerlistings"><span>Properties</span> </Link>
                 <Link href="detail">  
                     <Image alt="House Image" src={houseImage} />
@@ -33,106 +33,106 @@ export default function homecards() {
                 </article>
             </div>
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
-                <Link href="/innerlistings"><span>Services</span> </Link>
-                <Link href="#">  
+            <div className="col-md-4 col-6">
+                <article className="blog-post">
+                <Link href="innerlistings"><span>Properties</span> </Link>
+                <Link href="detail">  
                     <Image alt="Dummy Image" src={dummyImage} />
                     <small>Today</small>
-                    <div class="content">
+                    <div className="content">
                         <h5>₹ 25,000</h5>
                         <p>SOFA FOR SALE</p>
-                        <p class="text-muted"> Mount Road, Chennai</p>
+                        <p className="text-muted"> Mount Road, Chennai</p>
                     </div>
                 </Link>
                 </article>
             </div>
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
-                <Link href="/innerlistings"><span>Services</span> </Link>
-                <Link href="#">  
+            <div className="col-md-4 col-6">
+                <article className="blog-post">
+                <Link href="innerlistings"><span>Properties</span> </Link>
+                <Link href="detail">  
                     <Image alt="Dummy Image" src={dummyImage} />
                     <small>Today</small>
-                    <div class="content">
+                    <div className="content">
                         <h5>₹ 25,000</h5>
                         <p>SOFA FOR SALE</p>
-                        <p class="text-muted"> Mount Road, Chennai</p>
+                        <p className="text-muted"> Mount Road, Chennai</p>
                     </div>
                 </Link>
                 </article>
             </div>
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
-                <Link href="/innerlistings"><span>Jobs</span> </Link>
-                <Link href="#">  
+            <div className="col-md-4 col-6">
+                <article className="blog-post">
+                <Link href="innerlistings"><span>Properties</span> </Link>
+                <Link href="detail">  
                     <Image alt="Dummy Image" src={dummyImage} />
                     <small>Today</small>
-                    <div class="content">
+                    <div className="content">
                         <h5>₹ 25,000</h5>
                         <p>SOFA FOR SALE</p>
-                        <p class="text-muted"> Mount Road, Chennai</p>
+                        <p className="text-muted"> Mount Road, Chennai</p>
                     </div>
                 </Link>
                 </article>
             </div>
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
-                <Link href="/innerlistings"><span>Services</span> </Link>
-                <Link href="#">  
+            <div className="col-md-4 col-6">
+                <article className="blog-post">
+                <Link href="innerlistings"><span>Properties</span> </Link>
+                <Link href="detail">  
                     <Image alt="Dummy Image" src={dummyImage} />
                     <small>Today</small>
-                    <div class="content">
+                    <div className="content">
                         <h5>₹ 25,000</h5>
                         <p>SOFA FOR SALE</p>
-                        <p class="text-muted"> Mount Road, Chennai</p>
+                        <p className="text-muted"> Mount Road, Chennai</p>
                     </div>
                 </Link>
                 </article>
             </div>
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
-                <Link href="/innerlistings"><span>Services</span> </Link>
-                <Link href="#">  
+            <div className="col-md-4 col-6">
+                <article className="blog-post">
+                <Link href="innerlistings"><span>Properties</span> </Link>
+                <Link href="detail">  
                     <Image alt="Dummy Image" src={dummyImage} />
                     <small>Today</small>
-                    <div class="content">
+                    <div className="content">
                         <h5>₹ 25,000</h5>
                         <p>SOFA FOR SALE</p>
-                        <p class="text-muted"> Mount Road, Chennai</p>
+                        <p className="text-muted"> Mount Road, Chennai</p>
                     </div>
                 </Link>
                 </article>
             </div>
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
-                <Link href="/innerlistings"><span>Services</span> </Link>
-                <Link href="#">  
+            <div className="col-md-4 col-6">
+                <article className="blog-post">
+                <Link href="innerlistings"><span>Properties</span> </Link>
+                <Link href="detail">  
                     <Image alt="Dummy Image" src={dummyImage} />
                     <small>Today</small>
-                    <div class="content">
+                    <div className="content">
                         <h5>₹ 25,000</h5>
                         <p>SOFA FOR SALE</p>
-                        <p class="text-muted"> Mount Road, Chennai</p>
+                        <p className="text-muted"> Mount Road, Chennai</p>
                     </div>
                 </Link>
                 </article>
             </div>
 
-            <div class="col-md-3 col-6">
-                <article class="blog-post">
-                <Link href="/innerlistings"><span>Services</span> </Link>
-                <Link href="#">  
+            <div className="col-md-4 col-6">
+                <article className="blog-post">
+                <Link href="innerlistings"><span>Properties</span> </Link>
+                <Link href="detail">  
                     <Image alt="Dummy Image" src={dummyImage} />
                     <small>Today</small>
-                    <div class="content">
+                    <div className="content">
                         <h5>₹ 25,000</h5>
                         <p>SOFA FOR SALE</p>
-                        <p class="text-muted"> Mount Road, Chennai</p>
+                        <p className="text-muted"> Mount Road, Chennai</p>
                     </div>
                 </Link>
                 </article>

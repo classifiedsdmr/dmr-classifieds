@@ -4,6 +4,7 @@ export default function Page(){
     return (
         <Format> 
             <Bredcrumb></Bredcrumb>
-            Page</Format>
+            <Homecards></Homecards>
+           </Format>
     )
 }

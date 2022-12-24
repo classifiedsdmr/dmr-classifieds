@@ -469,7 +469,138 @@ text-align: center;}
     right: 0;
     border-radius: .5rem 0 .5rem 0;
 }
+.custom-control {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+}
+.showmore-button {
+    text-align: center;
+  }
+  .showmore-button-inner {
+    border: 1px solid var(--brand);
+    color: var(--brand);
+  }
+.showmore-button-inner {
+    display: inline-block;
+    padding: 10px 19px;
+    line-height: 14px;
+    font-size: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .card-title {
+	font-size: 1.125rem;
+	line-height: 1.2;
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+}
+.card-title:only-child {
+    margin-bottom: 0;
+}
+.filter-product-checkboxs a{ cursor: pointer;}
+.filter-product-checkboxs a:hover{color: var(--brand) !important;}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+.ribbon {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+}
 
+.ribbon::after, .ribbon::before {
+	 position: absolute;
+	 z-index: -1;
+	 content: '';
+	 display: block;
+	 border: 5px solid;
+}
+ .ribbon span {
+	 position: absolute;
+	 display: block;
+	 width: 225px;
+	 padding: 8px 0;
+	 box-shadow: 0 5px 10px #00000061;
+	 color: #fff;
+	 /* text-shadow: 0 1px 1px #000; */
+	 text-transform: capitalize;
+	 text-align: center;
+}
+
+ .ribbon-top-right {
+	 top: -10px;
+	 right: -10px;
+}
+ .ribbon-top-right::after {
+	 border-top-color: transparent;
+	 border-right-color: transparent;
+}
+ .ribbon-top-right::before {
+	 border-top-color: transparent;
+	 border-right-color: transparent;
+	 top: 0;
+	 left: 36px;
+}
+ .ribbon-top-right::after {
+	 bottom: 36px;
+	 right: 0;
+}
+ .ribbon-top-right span {
+	 left: -8px;
+	 top: 30px;
+	 transform: rotate(45deg);
+}
+.arrow-ribbon2 {
+	 color: #fff;
+	 padding: 3px 8px;
+	 position: absolute;
+	 top: 10px;
+	 left: 0px;
+	 z-index: 98;
+	 font-size: 30px;
+}
+ .arrow-ribbon2:before {
+	 position: absolute;
+	 right: 0;
+	 top: 0;
+	 bottom: 0;
+	 content: "";
+	 right: -24px;
+	 border-top: 24px solid transparent;
+	 border-bottom: 24px solid transparent;
+	 width: 0;
+     border-left: 24px solid rgba(var(--bs-primary-rgb),var(--bs-bg-opacity)) !important;
+}
+ 
+ 
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #f1eef7;
+      background-color: rgb(241, 238, 247);
+  }
+.label-secondary {
+    background-color: var(--brand);
+  }
 
 footer {
     background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(https://www.dinamalar.com/testing/a1b2c3z5y6x7/2022/static-classifieds/img/people.webp), #082032;;
