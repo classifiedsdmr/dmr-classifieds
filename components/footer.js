@@ -13,10 +13,10 @@ export default function footer() {
             <span className="dot">.</span> Dinamalar</h4>
           <p>Here some tag line</p>
           <div className="col-auto social-icons">
-            <a href="#"><i className="bx bxl-facebook" /></a>
-            <a href="#"><i className="bx bxl-twitter" /></a>
-            <a href="#"><i className="bx bxl-instagram" /></a>
-            <a href="#"><i className="bx bxl-pinterest" /></a>
+            <Link href="#"><i className="bx bxl-facebook" /></Link>
+            <Link href="#"><i className="bx bxl-twitter" /></Link>
+            <Link href="#"><i className="bx bxl-instagram" /></Link>
+            <Link href="#"><i className="bx bxl-pinterest" /></Link>
           </div>
         </div>
       </div>
