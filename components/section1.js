@@ -28,7 +28,7 @@ export default function section1() {
                     <li><Link href="#" className="dropdown-item">Kovai </Link></li>
                     <li><Link href="#" className="dropdown-item">Pondicherry </Link></li>
                     <li><Link href="#" className="dropdown-item">Tirunelveli </Link></li>
-                    <li> <Link href="#" className="dropdown-item">Nagercovil </Link></li>
+                    <li><Link href="#" className="dropdown-item">Nagercovil </Link></li>
                   </ul> 
                 </div> 
                 <div className="form-group  col-xl-3 col-lg-3 col-md-12 mb-0 bg-white position-relative dropdown text-start mx-1"> 

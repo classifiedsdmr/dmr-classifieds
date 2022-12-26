@@ -1,10 +1,12 @@
 import '../styles/globals.css';
 import '../styles/style.css';
+import NextNProgress from 'nextjs-progressbar';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>   <Component {...pageProps} />
-        
+    <>   
+    <NextNProgress />
+    <Component {...pageProps} />
     </> )
 }
 

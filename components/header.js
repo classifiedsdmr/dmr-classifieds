@@ -20,7 +20,7 @@ export default function header() {
         <li className="nav-item">
         <Link legacyBehavior href="innerlistings"><a className="nav-link" >Electronics &amp; Appliances</a></Link>
         </li>
-        <li lassName="nav-item">
+        <li className="nav-item">
         <Link legacyBehavior href="innerlistings"><a className="nav-link" >Jobs</a></Link>
         </li>
         <li className="nav-item">
